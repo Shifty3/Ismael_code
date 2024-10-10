@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  border: 1px black solid;
+  left: 0;
+  right: 0%;
+}
+
+.box-1,
+.box-2 {
+  display: flex;
+  gap: 4rem;
+  padding: 5px;
+  margin: 0 5px;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  font-family: "Roboto";
+  gap: 1rem;
+  border: 1px solid black;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  margin-top: 23%;
+}
+
+.image-container {
+  border: 1px red solid;
+  margin-bottom: 5%;
+}
+
+.google-logo {
+  width: 272px;
+  height: 92px;
+}
+.input-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  background-color: transparent;
+  border: 1px white solid;
+  padding: 1rem;
+  color: white;
+  border-radius: 2rem;
+  min-width: 45%;
+}
+
+.button-container {
+  margin-top: 2.5%;
+  display: flex;
+  gap: 1rem;
+}
+
+.button {
+  font-size: 1rem;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  background-color: blanchedalmond;
+  border-radius: 0.3rem;
+}
